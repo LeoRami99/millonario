@@ -1,0 +1,302 @@
+[
+	{
+		"id": 1,
+		"context": "¿Cuál es la forma correcta de declarar una variable mutable en Rust?",
+		"option_1": "let x = 5;",
+		"option_2": "mut x = 5;",
+		"option_3": "let mut x = 5;",
+		"option_4": "var x = 5;",
+		"answer": 3,
+		"level": 1
+	},
+	{
+		"id": 2,
+		"context": "¿Qué tipo de dato usa Rust por defecto para un número entero?",
+		"option_1": "i64",
+		"option_2": "u32",
+		"option_3": "i32",
+		"option_4": "f32",
+		"answer": 3,
+		"level": 1
+	},
+	{
+		"id": 3,
+		"context": "¿Qué función se utiliza para imprimir en Rust?",
+		"option_1": "printline",
+		"option_2": "echo",
+		"option_3": "println!",
+		"option_4": "print_out",
+		"answer": 3,
+		"level": 1
+	},
+	{
+		"id": 4,
+		"context": "¿Cuál es el operador de comparación en Rust?",
+		"option_1": "=",
+		"option_2": "==",
+		"option_3": ":=",
+		"option_4": "!=",
+		"answer": 2,
+		"level": 1
+	},
+	{
+		"id": 5,
+		"context": "¿Qué palabra clave se usa para declarar una constante en Rust?",
+		"option_1": "let",
+		"option_2": "const",
+		"option_3": "mut",
+		"option_4": "var",
+		"answer": 2,
+		"level": 1
+	},
+	{
+		"id": 6,
+		"context": "¿Cuál es el tipo de dato para una cadena de caracteres en Rust?",
+		"option_1": "str",
+		"option_2": "string",
+		"option_3": "&str",
+		"option_4": "String",
+		"answer": 4,
+		"level": 1
+	},
+	{
+		"id": 7,
+		"context": "¿Cuál de las siguientes opciones es un tipo booleano en Rust?",
+		"option_1": "bool",
+		"option_2": "boolean",
+		"option_3": "bit",
+		"option_4": "true/false",
+		"answer": 1,
+		"level": 1
+	},
+	{
+		"id": 8,
+		"context": "¿Qué palabra clave se usa para definir una función en Rust?",
+		"option_1": "func",
+		"option_2": "function",
+		"option_3": "def",
+		"option_4": "fn",
+		"answer": 4,
+		"level": 1
+	},
+	{
+		"id": 9,
+		"context": "¿Qué palabra clave en Rust permite hacer coincidir patrones?",
+		"option_1": "switch",
+		"option_2": "match",
+		"option_3": "case",
+		"option_4": "if",
+		"answer": 2,
+		"level": 1
+	},
+	{
+		"id": 10,
+		"context": "¿Qué función en Rust convierte un tipo de dato en otro?",
+		"option_1": "as",
+		"option_2": "cast",
+		"option_3": "convert",
+		"option_4": "transform",
+		"answer": 1,
+		"level": 1
+	},
+	{
+		"id": 11,
+		"context": "¿Qué módulo se utiliza en Rust para trabajar con archivos?",
+		"option_1": "fs",
+		"option_2": "std::file",
+		"option_3": "std::fs",
+		"option_4": "io",
+		"answer": 3,
+		"level": 2
+	},
+	{
+		"id": 12,
+		"context": "¿Qué palabra clave define una estructura en Rust?",
+		"option_1": "struct",
+		"option_2": "class",
+		"option_3": "obj",
+		"option_4": "record",
+		"answer": 1,
+		"level": 2
+	},
+	{
+		"id": 13,
+		"context": "¿Cómo se define una referencia mutable en Rust?",
+		"option_1": "&var",
+		"option_2": "&mut",
+		"option_3": "mut&",
+		"option_4": "var&",
+		"answer": 2,
+		"level": 2
+	},
+	{
+		"id": 14,
+		"context": "¿Cuál es el resultado de '5 + 3 * 2' en Rust?",
+		"option_1": "16",
+		"option_2": "11",
+		"option_3": "10",
+		"option_4": "13",
+		"answer": 4,
+		"level": 2
+	},
+	{
+		"id": 15,
+		"context": "¿Cuál es el resultado del siguiente código?\n\nlet x = 10;\nlet y = x / 3;\nprintln!(\"{}\", y);",
+		"option_1": "3.333",
+		"option_2": "3",
+		"option_3": "Error de compilación",
+		"option_4": "10/3",
+		"answer": 2,
+		"level": 2
+	},
+	{
+		"id": 16,
+		"context": "¿Cómo se llama la funcionalidad de Rust que permite paralelizar tareas?",
+		"option_1": "async",
+		"option_2": "thread",
+		"option_3": "parallel",
+		"option_4": "sync",
+		"answer": 1,
+		"level": 2
+	},
+	{
+		"id": 17,
+		"context": "¿Cuál es el propósito del método unwrap() en Rust?",
+		"option_1": "Elimina el valor de una variable",
+		"option_2": "Muestra el valor de un Result o Option",
+		"option_3": "Convierte un tipo en otro",
+		"option_4": "Lanza un error si el valor es Err",
+		"answer": 4,
+		"level": 2
+	},
+	{
+		"id": 18,
+		"context": "¿Qué significa Ownership en Rust?",
+		"option_1": "Propiedad de un valor",
+		"option_2": "Derechos de acceso",
+		"option_3": "Control de referencias mutables",
+		"option_4": "Control de threads",
+		"answer": 1,
+		"level": 2
+	},
+	{
+		"id": 19,
+		"context": "¿Qué palabra clave se usa para liberar un valor en Rust?",
+		"option_1": "free",
+		"option_2": "delete",
+		"option_3": "drop",
+		"option_4": "release",
+		"answer": 3,
+		"level": 2
+	},
+	{
+		"id": 20,
+		"context": "¿Cuál es el propósito de Rc en Rust?",
+		"option_1": "Administrar mutabilidad",
+		"option_2": "Conteo de referencias compartidas",
+		"option_3": "Hacer cálculos matemáticos",
+		"option_4": "Crear vectores dinámicos",
+		"answer": 2,
+		"level": 2
+	},
+	{
+		"id": 21,
+		"context": "¿Cuál es el propósito de un trait en Rust?",
+		"option_1": "Definir interfaces",
+		"option_2": "Implementar una estructura de datos",
+		"option_3": "Crear objetos",
+		"option_4": "Realizar llamadas asincrónicas",
+		"answer": 1,
+		"level": 3
+	},
+	{
+		"id": 22,
+		"context": "¿Qué tipo de dato permite compartir datos mutables entre hilos de forma segura?",
+		"option_1": "Rc",
+		"option_2": "Arc",
+		"option_3": "Mutex",
+		"option_4": "RefCell",
+		"answer": 3,
+		"level": 3
+	},
+	{
+		"id": 23,
+		"context": "¿Qué módulo se usa para manejar operaciones de sistema en Rust?",
+		"option_1": "std::sys",
+		"option_2": "std::process",
+		"option_3": "std::env",
+		"option_4": "std::os",
+		"answer": 2,
+		"level": 3
+	},
+	{
+		"id": 24,
+		"context": "¿Qué método convierte un Option en un Result en Rust?",
+		"option_1": "unwrap_or",
+		"option_2": "ok_or",
+		"option_3": "expect",
+		"option_4": "map_err",
+		"answer": 2,
+		"level": 3
+	},
+	{
+		"id": 25,
+		"context": "¿Cómo se asegura Rust de evitar data races?",
+		"option_1": "Arc",
+		"option_2": "Ownership",
+		"option_3": "Mutex",
+		"option_4": "Concurrency",
+		"answer": 2,
+		"level": 3
+	},
+	{
+		"id": 26,
+		"context": "¿Qué funcionalidad permite asignar valores condicionales en Rust?",
+		"option_1": "match",
+		"option_2": "if let",
+		"option_3": "cond",
+		"option_4": "switch",
+		"answer": 2,
+		"level": 3
+	},
+	{
+		"id": 27,
+		"context": "¿Cuál es la funcionalidad de From en Rust?",
+		"option_1": "Convertir tipos de datos",
+		"option_2": "Modificar referencias",
+		"option_3": "Crear iteradores",
+		"option_4": "Lanzar errores",
+		"answer": 1,
+		"level": 3
+	},
+	{
+		"id": 28,
+		"context": "¿Qué operador se usa para pattern matching en Rust?",
+		"option_1": "if let",
+		"option_2": "=",
+		"option_3": "::",
+		"option_4": "=>",
+		"answer": 1,
+		"level": 3
+	},
+	{
+		"id": 29,
+		"context": "¿Qué estructura permite el manejo de errores sin panics?",
+		"option_1": "Result",
+		"option_2": "Option",
+		"option_3": "Match",
+		"option_4": "None",
+		"answer": 1,
+		"level": 3
+	},
+	{
+		"id": 30,
+		"context": "¿Qué hace el operador ? en Rust?",
+		"option_1": "Simplifica el manejo de errores",
+		"option_2": "Asigna valores a variables",
+		"option_3": "Concatena cadenas",
+		"option_4": "Define closures",
+		"answer": 1,
+		"level": 3
+	}
+]
