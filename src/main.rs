@@ -21,15 +21,13 @@ fn main() {
     
     
     loop {
-        println!(r" /$$      /$$ /$$ /$$ /$$                                         /$$          
-| $$$    /$$$|__/| $$| $$                                        |__/          
-| $$$$  /$$$$ /$$| $$| $$  /$$$$$$  /$$$$$$$   /$$$$$$   /$$$$$$  /$$  /$$$$$$ 
-| $$ $$/$$ $$| $$| $$| $$ /$$__  $$| $$__  $$ |____  $$ /$$__  $$| $$ /$$__  $$
-| $$  $$$| $$| $$| $$| $$| $$  \ $$| $$  \ $$  /$$$$$$$| $$  \__/| $$| $$  \ $$
-| $$\  $ | $$| $$| $$| $$| $$  | $$| $$  | $$ /$$__  $$| $$      | $$| $$  | $$
-| $$ \/  | $$| $$| $$| $$|  $$$$$$/| $$  | $$|  $$$$$$$| $$      | $$|  $$$$$$/
-|__/     |__/|__/|__/|__/ \______/ |__/  |__/ \_______/|__/      |__/ \______/ 
-                                                                              ");
+        let file_path = "./assets/america_de_cali.txt";
+
+        match fs::read_to_string(file_path) {
+            Ok(contents) => println!("{}", contents),
+            Err(e) => eprintln!("Failed to read the file: {}", e),
+        }
+
         println!("\nBienvenido a quien quiere ser ¡MILLONARIO! \n 1. Iniciar Juego \n 0. Salir \n Ingresa una opción:");
         let initial = read_integer().unwrap();
         match initial {

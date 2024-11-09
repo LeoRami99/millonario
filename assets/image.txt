@@ -1,0 +1,14 @@
+ david  ~  exercise  millonario  cargo run
+   Compiling calc v0.1.0 (/home/david/exercise/millonario)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.42s
+     Running `target/debug/calc`
+   AAAAA   M     M   EEEEE  RRRRR    III   CCCCC    AAAAA
+  A     A  MM   MM   E      R   R    III  C         A     A
+  AAAAAAA  M M M M   EEEE   RRRRR    III  C         AAAAAAA
+  A     A  M  M  M   E      R  R     III  C         A     A
+  A     A  M     M   EEEEE  R   R   IIIII  CCCCC    A     A
+
+Bienvenido a quien quiere ser ¡MILLONARIO! 
+ 1. Iniciar Juego 
+ 0. Salir 
+ Ingresa una opción:
